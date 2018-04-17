@@ -1,6 +1,6 @@
 function base=basefunc(t,x,p,k)
 % t: sequence of node
-% x: diem dang xet toi
+% x: current point taken into consideration
 % p: degree of Bspline
 node_num=length(t);   %% number of nodes
 cp_num=node_num-p-1;   %% number of control points
